@@ -1,0 +1,340 @@
+.company {
+  padding-top: 80px;
+}
+
+.company__main2 {
+  padding-top: 100px;
+}
+.company__title {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 43px;
+  margin-right: 78px !important;
+  columns: $color-black;
+}
+.company__text {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  line-height: 165%;
+  columns: $color-black;
+  margin-right: 12px !important;
+}
+.company__logo {
+  width: 130px;
+  height: 60px;
+  margin-right: 30px !important;
+  object-fit: cover;
+}
+
+.company__span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 165%;
+  color: $color-text;
+}
+
+.company__select {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  color: $color-black;
+  background-color: $color-text;
+  padding: 10px 1em 10px 1em;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  outline: none;
+}
+.company__op {
+  background-color: $color-white;
+}
+.company__num {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 165%;
+  color: $color-black;
+}
+.company__inner-span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 165%;
+  color: $color-decs;
+}
+
+.company__map-div {
+  position: relative;
+}
+.company__img-location {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.company__inner-div {
+  position: absolute;
+  left: 140px;
+  top: 40px;
+}
+
+.company__inner-div1 {
+  position: absolute;
+  left: 100px;
+  top: 180px;
+}
+
+.company__inner-div2 {
+  position: absolute;
+  left: 80px;
+  top: 250px;
+}
+
+.company__inner-div3 {
+  position: absolute;
+  left: 280px;
+  top: 270px;
+}
+.company__p {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 165%;
+  margin: 0;
+  margin-left: 5px;
+  color: $color-black;
+}
+
+.company__img-map {
+  width: 528px !important;
+  height: 380px !important;
+  object-fit: cover;
+}
+
+.company__box-div {
+  margin-bottom: 50px;
+}
+.company__box-div1 {
+  margin-bottom: 50px;
+}
+.company__box-div1 {
+  margin-right: 153px;
+}
+.company__box-div2 {
+  margin-right: 60px;
+}
+.company__box-div4 {
+  margin-right: 45px;
+}
+
+
+
+
+@media screen and (max-width: 1316px) {
+  .company__main2 {
+    flex-direction: column-reverse;
+  }
+  .company__inner {
+    padding-top: 40px;
+  }
+  .company__main2 {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .company__box-inner {
+    flex-direction: column;
+  }
+  .company__box-div1 {
+    margin-right: 0px;
+  }
+  .company__box-div2 {
+    margin-right: 0px;
+  }
+  .company__box-div4 {
+    margin-right: 0px;
+  }
+  .company__box-div {
+    width: 100%;
+  }
+  .company__p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 165%;
+    margin: 0;
+    margin-left: 5px;
+    color: $color-black;
+  }
+  
+  .company__img-location {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+}
+
+
+@media screen and (max-width: 687px) {
+  .company__title {
+    font-size: 28px !important;
+    margin-right: 30px !important;
+  }
+  .company__logo {
+    margin-right: 0 !important;
+  }
+  .company__img-map {
+    width: 100% !important;
+    object-fit: cover;
+  }
+  .company__main2 {
+    padding-top: 50px;
+  }
+}
+
+
+@media screen and (max-width: 687px) {
+  .company__title {
+    font-size: 20px !important;
+  }
+  .company__logo {
+   width: 100px;
+   height: auto;
+   margin-right: 50px !important;
+  }
+}
+
+
+@media screen and (max-width: 687px) {
+  .company__title {
+    font-size: 20px !important;
+  }
+  .company__logo {
+   width: 80px;
+   height: auto;
+   margin-right: 50px !important;
+  }
+}
+@media screen and (max-width: 687px)  {
+  .company__logo {
+    width: 130px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .company__inner-div {
+    position: absolute;
+    left: 100px;
+    top: 40px;
+  }
+  
+  .company__inner-div1 {
+    position: absolute;
+    left: 60px;
+    top: 180px;
+  }
+  
+  .company__inner-div2 {
+    position: absolute;
+    left: 40px;
+    top: 250px;
+  }
+  
+  .company__inner-div3 {
+    position: absolute;
+    left: 250px;
+    top: 270px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .company__inner-div {
+    position: absolute;
+    left: 80px;
+    top: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .company__inner-div {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+  }
+  .company__inner-div1 {
+    position: absolute;
+    left: 30px;
+    top: 180px;
+  }
+  
+  .company__inner-div2 {
+    position: absolute;
+    left: 10px;
+    top: 250px;
+  }
+  
+  .company__inner-div3 {
+    position: absolute;
+    left: 210px;
+    top: 270px;
+  }
+  .company__img {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .company__num {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .company__inner-span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .company__inner-div {
+    position: absolute;
+    left: 25px;
+    top: 40px;
+  }
+  .company__inner-div1 {
+    position: absolute;
+    left: 8px;
+    top: 180px;
+  }
+  
+  .company__inner-div2 {
+    position: absolute;
+    left: 5px;
+    top: 250px;
+  }
+  
+  .company__inner-div3 {
+    position: absolute;
+    left: 180px;
+    top: 270px;
+  }
+  .company__title {
+    font-size: 20px !important;
+  }
+  .company__logo {
+    width: 100px;
+    margin-right: 20px !important;
+  }
+  .company__text {
+    font-size: 16px;
+  }
+  .company__span {
+    font-size: 16px;
+  }
+.company__select {
+  margin-top: 20px !important;
+}
+}
+
+@media screen and (max-width: 311px) {
+  .company__logo {
+    margin-bottom: 20px !important;
+  }
+}

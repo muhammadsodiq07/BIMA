@@ -1,0 +1,89 @@
+.popular {
+  padding-top: 100px;
+}
+
+.popular__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 43px;
+  color: $color-black;
+}
+
+.popular__btn {
+  border: 1px solid transparent;
+  background-color: transparent !important;
+}
+
+.popular__hidden {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap !important;
+  overflow-x: hidden;
+}
+
+.popular__list {
+  padding: 0;
+  margin: 0;
+  flex-wrap: nowrap !important;
+  transition: all 0.4s ease;
+  padding-top: 25px !important; 
+}
+
+.popular__item {
+  width: 330px;
+  height: auto;
+  list-style: none;
+  padding-bottom: 20px;
+  background-color: $color-white;
+  box-shadow: 0px 0px 12px 3px rgba(56, 56, 56, 0.05);
+  border-radius: 2px;
+  margin-right: 20px;
+}
+
+.popular__inner-box {
+  padding-left: 20px;
+  padding-right: 45px;
+}
+.popular__img {
+  width: 100%;
+  height: 215px;
+}
+
+.popular__inner-title {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 165%;
+  padding-top: 10px;
+  color: $color-black;
+}
+
+.popular__inner-text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 160%;
+  color: $color-decs;
+}
+.popular__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.popular__inner-btn {
+  @include btn;
+}
+
+@media screen and (max-width: 515px) {
+  .popular__title {
+    font-size: 25px;
+  }
+  .popular__hidden {
+    width: 330px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .popular__title {
+    font-size: 20px;
+  }
+}

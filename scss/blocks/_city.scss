@@ -1,0 +1,149 @@
+.city {
+  padding-top: 150px;
+}
+.city__list-holder {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap !important;
+  overflow-x: hidden;
+}
+.city__list {
+  padding: 0;
+  margin: 0;
+  transition: all 0.4s ease;
+  list-style: none;
+  padding-top: 40px;
+}
+.city__iconsr {
+  font-size: 24px;
+}
+.city__item {
+  width: 670px;
+  position: relative;
+  height: auto;
+  padding-bottom: 35px;
+  background-color: $color-white;
+  box-shadow: 0px 0px 12px 3px rgba(56, 56, 56, 0.05);
+  border-radius: 2px;
+  margin-right: 30px;
+}
+.city__icon-img {
+  position: absolute;
+  left: 20px;
+  top: 110px;
+}
+.city__innre-div {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.city__inner-user {
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.city__decs {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 170%;
+  position: relative;
+  z-index: 1;
+  color: $color-decs;
+}
+.city__inner-name {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 165%;
+  color: $color-black;
+}
+
+.city__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 165%;
+  color: $color-decs;
+}
+
+.city__icons {
+  color: $color-text;
+}
+
+.popular__buttons1 {
+  display: block;
+}
+.popular__buttons2 {
+  display: none;
+}
+.popular__buttons4 {
+  display: none;
+}
+@media screen and (max-width: 695px) {
+  .city__list-holder {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: nowrap !important;
+    overflow-x: hidden;
+  }
+  .city__item {
+    width: 500px;
+  }
+
+  .popular__buttons1 {
+    display: none;
+  }
+  .popular__buttons2 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  .city__list-holder {
+    width: 330px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: nowrap !important;
+    overflow-x: hidden;
+  }
+  .city__item {
+    width: 330px;
+    margin-right: 0 !important;
+  }
+  .city__innre-div {
+    flex-direction: column;
+  }
+  .city__decs {
+    padding-top: 0 !important;
+  }
+  .city__stars {
+    position: relative;
+    top: -20px;
+    left: 22px;
+  }
+  .city__inner-name {
+    font-size: 14px;
+  }
+  .city__text {
+    font-size: 14px;
+  }
+  .city__inner-user {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+  .popular__buttons1 {
+    display: none;
+  }
+  .popular__buttons2 {
+    display: none;
+  }
+  .popular__buttons4 {
+    display: block;
+  }
+}
