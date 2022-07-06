@@ -574,7 +574,13 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .news {
-  padding-top: 180px;
+  margin-top: 50px;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  border-radius: 20% 0 30% 0;
+  background-color: #F9F9F9;
 }
 
 .news__title {
